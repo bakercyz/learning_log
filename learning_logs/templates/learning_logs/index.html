@@ -1,0 +1,16 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+<div class='jumbotron'>
+<h2>沈阳博宇科技日志管理系统</h2>
+<h1>记录你的日志</h1>
+</div>
+{% endblock header %}
+{% block content %}
+<h2>
+<a href="{% url 'users:register' %}">注册一个帐户</a> 来记录你自己的学习日志，并列出你的主题。
+</h2>
+<h2>
+每天，写下日期。谈谈你解决问题时的思路和方式。写下你所面对的选择、观点、观察、方法、结果和决定。
+</h2>
+{% endblock content %}
